@@ -1,5 +1,5 @@
 from unittest import TestCase
-from HW4ASSW567.HelloGitHub import helloGithub
+from HelloGitHub import helloGithub
 
 
 class Test(TestCase):
