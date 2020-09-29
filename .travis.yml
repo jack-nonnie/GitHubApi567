@@ -3,7 +3,7 @@ python:
  - "3.5"
 
 install:
- - pygithub
+ - ./install-pygithub
 # command to run tests
 script:
  - python -m unittest test_HelloGitHub
