@@ -5,3 +5,5 @@ python:
 # command to run tests
 script:
  - python -m unittest test_HelloGitHub
+before_install:
+  - sudo apt-get -y install PyGithub
